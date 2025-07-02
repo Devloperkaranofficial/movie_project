@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/next";
 import axios from "axios";
 import { useDebounce } from "react-use";
 import Search from "./Components/Search.jsx";
